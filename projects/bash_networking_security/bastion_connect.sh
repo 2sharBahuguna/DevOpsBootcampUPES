@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if [ -z "$KEY_PATH" ]; then
 echo "Error, environamt variable not set"
 exit 5
