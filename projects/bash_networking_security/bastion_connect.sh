@@ -7,7 +7,7 @@ fi
 
 echo "Enter the instance: in user@public-instance-ip "
 read inst
-ssh -i "$KEY_PATH" "$inst" << EOF
+ssh -i "$KEY_PATH" "$inst" << EO
 
 EOF
 
